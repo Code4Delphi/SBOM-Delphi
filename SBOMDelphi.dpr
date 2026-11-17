@@ -2,13 +2,13 @@ program SBOMDelphi;
 
 uses
   Vcl.Forms,
-  View.Main in 'Src\View.Main.pas' {Form1};
+  View.Main in 'Src\View.Main.pas' {MainView};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TMainView, MainView);
   Application.Run;
 end.
