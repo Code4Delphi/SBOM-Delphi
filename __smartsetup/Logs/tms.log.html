@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>TMS Smart Setup HTML Log</title>
+<meta name="viewport" content="width=device-width">
+<style>
+:root {
+  --wrap: break-spaces;
+}
+body {
+  font-family: monospace;
+}
+.topbar {
+padding: 10px 16px;
+background: white;font-size: 12pt;font-weight: bold;
+color: black;
+position: fixed;
+box-sizing: border-box;
+top: 0;
+width: 100%;
+}
+.action-button {
+  float: right;
+  border: 1px solid #e5e7eb;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  column-gap: 1rem;
+  cursor: pointer;
+  font-size: 10pt;
+  font-weight: 700;
+  line-height: 10px;
+  padding: 3px 10px;
+  margin-right: 20px;
+  outline: 2px solid transparent;
+  text-align: center;
+  text-transform: none;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+}
+.action-button:hover {
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+}
+.action-button:active {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+  transform: translateY(0.125rem);
+}
+.content {
+  margin-top: 15px;
+}
+.wrap-collapsible {
+ margin-bottom: 1.2rem 0;
+}
+input[type="checkbox"] {
+  display: none;
+}
+.lbl-toggle {
+  display: block;
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 6px;
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 11pt;
+  border-radius: 7px;
+  margin-top: 7px;
+  transition: all 0.25s ease-out;
+}
+.lbl-toggle:hover {
+  background-color: #555;
+}
+.lbl-toggle::before {
+  content: " ";
+  display: inline-block;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+  transition: transform .2s ease-out;
+}
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 10000vh;
+}
+.toggle:checked + .lbl-toggle {
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+}
+.collapsible-content {
+  max-height: 0px;
+  overflow: auto;
+  padding: 0 18px;
+  font-family: monospace;
+  border: 1px solid rgba(250, 224, 66, .45);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.preformatted {
+  white-space: var(--wrap);
+  overflow-wrap: break-word;
+}
+.normal {
+  white-space: normal;
+}
+.box-error {
+  background-color: #f82323;
+}
+.box-error:hover {
+  background-color: red;
+}
+.error-text {
+  color: red;
+  font-weight: bold;
+}
+.info-text {
+  font-weight: bold;
+}
+.msg-caption {
+  color: navy;
+}
+.msg-question {
+  color: purple;
+}
+.msg-comment {
+  color: gray;
+  font-style: italic;
+}
+.msg-conclusion {
+  color: green;
+}
+</style>
+<script>
+function expandAll(value) {
+    var aa = document.querySelectorAll("input.toggle[type=checkbox]");
+    for (var i = 0; i < aa.length; i++){
+        aa[i].checked = value;
+    }
+}
+function wrapText() {
+  var r = document.querySelector(':root');
+  var p = r.style.getPropertyValue('--wrap')
+  if (p=="break-spaces" || p=="")  r.style.setProperty('--wrap', 'pre');
+  else r.style.setProperty('--wrap', 'break-spaces');
+}
+</script>
+</head>
+<body>
+<div class="topbar">
+TMS Smart Setup Log. November 17, 2026  0:42:49
+<button class="action-button" onclick="wrapText(false)">Wrap</button>
+<button class="action-button" onclick="expandAll(false)">Collapse</button>
+<button class="action-button" onclick="expandAll(true)">Expand</button>
+</div>
+<div class="content">
+<div class="preformatted">
+</div>
+<div class="wrap-collapsible">
+<input id="Section1" class="toggle" type="checkbox"checked>
+<label for="Section1" class="lbl-toggle">Information</label>
+<div class = "collapsible-content">
+<div class="preformatted">
+C:\Users\Cesar\AppData\Local\TMS Setup\tms.exe sbom-generate *
+tms version 3.5
+Windows 11 (Version 25H2, OS Build 26200.9974, 64-bit Edition)
+File system: NTFS
+Current dir: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi
+Working dir: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup
+Build cores: 32
+
+</div>
+<div class="wrap-collapsible">
+<input id="Section2" class="toggle" type="checkbox">
+<label for="Section2" class="lbl-toggle">Configuration:</label>
+<div class = "collapsible-content">
+<div class="preformatted">
+tms smart setup options:
+  build cores: 0
+  working folder: __smartsetup
+  prevent sleep: true
+  versions to keep: -1
+  error if skipped: false
+  servers:
+    tms:
+      enabled: false
+    community:
+      enabled: true
+configuration for all products:
+  options:
+    verbosity: info
+    skip register: false
+    dry run: false
+  delphi versions: [delphi12]
+  platforms: [win32intel]
+  compilation options:
+    debug dcus: true
+    run build events: false
+  advanced options:
+    use symlinks: false
+    keep parallel folders: false
+    modify sources: false
+    partial builds: false
+    add source code to library path: false
+</div>
+</div>
+</div>
+<div class="preformatted">
+</div>
+</div>
+</div>
+<div class="preformatted">
+</div>
+<div class="wrap-collapsible">
+<input id="Section3" class="toggle" type="checkbox">
+<label for="Section3" class="lbl-toggle">Project loading</label>
+<div class = "collapsible-content">
+<div class="preformatted">
+Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\tmsbuild.yaml
+Loaded project c4d.exceptions
+Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\tmsbuild.yaml
+Loaded project c4d.msg
+Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tmsbuild.yaml
+Loaded project c4d.sbom-delphi
+</div>
+</div>
+</div>
+<div class="preformatted">
+<span class="info-text">Generating SBOM for &quot;c4d.exceptions&quot;...</span>
+<span class="info-text">SBOM created: &quot;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\c4d.exceptions.cdx.json&quot;</span>
+<span class="info-text">Generating SBOM for &quot;c4d.msg&quot;...</span>
+<span class="info-text">SBOM created: &quot;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\c4d.msg.cdx.json&quot;</span>
+<span class="info-text">Generating SBOM for &quot;c4d.sbom-delphi&quot;...</span>
+<span class="info-text">SBOM created: &quot;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\c4d.sbom-delphi.cdx.json&quot;</span>
+</div>
+</div>
+</body>
+</html>

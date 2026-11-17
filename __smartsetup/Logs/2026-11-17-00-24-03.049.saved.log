@@ -1,0 +1,352 @@
+﻿[TRACE] [2026-11-17 00:23:50.095] C:\Users\Cesar\AppData\Local\TMS Setup\tms.exe install c4d.exceptions
+[TRACE] [2026-11-17 00:23:50.095] tms version 3.5
+[TRACE] [2026-11-17 00:23:50.097] Windows 11 (Version 25H2, OS Build 26200.9974, 64-bit Edition)
+[TRACE] [2026-11-17 00:23:50.097] File system: NTFS
+[TRACE] [2026-11-17 00:23:50.097] Current dir: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi
+[TRACE] [2026-11-17 00:23:50.097] Working dir: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup
+[TRACE] [2026-11-17 00:23:50.097] Build cores: 32
+[TRACE] [2026-11-17 00:23:50.097] 
+[TRACE] [2026-11-17 00:23:50.098] tms smart setup options:
+  build cores: 0
+  working folder: __smartsetup
+  prevent sleep: true
+  versions to keep: -1
+  error if skipped: false
+  servers:
+    tms:
+      enabled: false
+    community:
+      enabled: true
+configuration for all products:
+  options:
+    verbosity: info
+    skip register: false
+    dry run: false
+  delphi versions: [delphi12]
+  platforms: [win32intel]
+  compilation options:
+    debug dcus: true
+    run build events: false
+  advanced options:
+    use symlinks: false
+    keep parallel folders: false
+    modify sources: false
+    partial builds: false
+    add source code to library path: false
+[INFO ] [2026-11-17 00:23:53.180] === Repository Summary ===
+[INFO ] [2026-11-17 00:23:53.180]   - c4d.exceptions -> OK
+[INFO ] [2026-11-17 00:23:53.180] 
+[TRACE] [2026-11-17 00:23:53.180] community.predefined.repos.zip downloaded.
+[INFO ] [2026-11-17 00:23:53.180] 
+[TRACE] [2026-11-17 00:23:53.216] c4d.exceptions depends on c4d.msg, added to processing queue
+[INFO ] [2026-11-17 00:23:55.289] === Repository Summary ===
+[INFO ] [2026-11-17 00:23:55.289]   - c4d.msg:* -> OK
+[INFO ] [2026-11-17 00:23:55.289] 
+[TRACE] [2026-11-17 00:23:55.289] community.predefined.repos.zip downloaded.
+[INFO ] [2026-11-17 00:23:55.289] 
+[TRACE] [2026-11-17 00:23:55.323] Skipping API server because it isn't enabled or there are no credentials.
+[TRACE] [2026-11-17 00:23:55.323] Looking up products matching c4d.exceptions with version ""
+[TRACE] [2026-11-17 00:23:55.323] Looking up for tms.smartsetup.windows
+[TRACE] [2026-11-17 00:23:55.323] Skipping API server because it isn't enabled or there are no credentials.
+[TRACE] [2026-11-17 00:23:55.323] Looking up products matching tms.smartsetup.windows with version ""
+[INFO ] [2026-11-17 00:23:55.323] === Fetch Summary ===
+[INFO ] [2026-11-17 00:23:55.323] 
+[INFO ] [2026-11-17 00:23:55.323] Cleaning up downloaded files...
+[INFO ] [2026-11-17 00:23:55.324] Finished cleaning up downloaded files.
+[INFO ] [2026-11-17 00:23:55.324] Starting build...
+[INFO ] [2026-11-17 00:23:55.324] Configuration file: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tms.config.yaml
+[INFO ] [2026-11-17 00:23:55.324] 
+[TRACE] [2026-11-17 00:23:55.325] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\tmsbuild.yaml
+[TRACE] [2026-11-17 00:23:55.325] Loaded project c4d.exceptions
+[TRACE] [2026-11-17 00:23:55.325] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\tmsbuild.yaml
+[TRACE] [2026-11-17 00:23:55.325] Loaded project c4d.msg
+[TRACE] [2026-11-17 00:23:55.325] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tmsbuild.yaml
+[TRACE] [2026-11-17 00:23:55.326] Loaded project c4d.sbom-delphi
+[INFO ] [2026-11-17 00:23:55.360] Analyzing products...
+[INFO ] [2026-11-17 00:23:55.583] Ok
+[INFO ] [2026-11-17 00:24:03.028] All projects built.
+[INFO ] [2026-11-17 00:24:03.029] 
+[INFO ] [2026-11-17 00:24:03.030] === Build Summary ===
+[INFO ] [2026-11-17 00:24:03.030]   - C4D Msg 1.7.0 -> OK.
+[INFO ] [2026-11-17 00:24:03.030]   - C4D Exceptions 1.6.0 -> OK.
+[INFO ] [2026-11-17 00:24:03.030]   - SBOM Delphi 1.0.0 -> OK.
+[TRACE] [2026-11-17 00:24:03.032] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\tmsbuild.yaml
+[TRACE] [2026-11-17 00:24:03.032] Loaded project c4d.exceptions
+[TRACE] [2026-11-17 00:24:03.032] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\tmsbuild.yaml
+[TRACE] [2026-11-17 00:24:03.032] Loaded project c4d.msg
+[TRACE] [2026-11-17 00:24:03.032] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tmsbuild.yaml
+[TRACE] [2026-11-17 00:24:03.033] Loaded project c4d.sbom-delphi
+[INFO ] [2026-11-17 00:24:03.039] 
+[INFO ] [2026-11-17 00:24:03.039] Build finished. Elapsed time: 00:00:07.7153977
+[INFO ] [2026-11-17 00:24:03.039] 
+[INFO ] [2026-11-17 00:24:03.039] Install finished. Elapsed time: 00:00:12.9416398
+
+---- Thread 1
+
+[INFO ] [2026-11-17 00:23:50.852] Updating c4d.exceptions from GIT
+[TRACE] [2026-11-17 00:23:50.855] Execute command: "C:\Program Files\Git\cmd\git.exe" clone --recurse-submodules -- "https://github.com/Code4Delphi/C4D-Exceptions" "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\.repositories\c4d.exceptions"
+[TRACE] [2026-11-17 00:23:50.855] Working directory: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\.repositories\c4d.exceptions
+[TRACE] [2026-11-17 00:23:53.005] --- Output start ---
+[TRACE] [2026-11-17 00:23:53.005] Cloning into 'C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\.repositories\c4d.exceptions'...
+
+[TRACE] [2026-11-17 00:23:53.005] --- Output end ---
+[TRACE] [2026-11-17 00:23:53.005] Execute command: "C:\Program Files\Git\cmd\git.exe" branch --show-current
+[TRACE] [2026-11-17 00:23:53.005] Working directory: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\.repositories\c4d.exceptions
+[TRACE] [2026-11-17 00:23:53.064] --- Output start ---
+[TRACE] [2026-11-17 00:23:53.064] master
+
+[TRACE] [2026-11-17 00:23:53.064] --- Output end ---
+[TRACE] [2026-11-17 00:23:53.066] Execute command: "C:\Program Files\Git\cmd\git.exe" tag --points-at HEAD
+[TRACE] [2026-11-17 00:23:53.066] Working directory: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src
+[TRACE] [2026-11-17 00:23:53.121] --- Output start ---
+[TRACE] [2026-11-17 00:23:53.121] v1.6.0
+
+[TRACE] [2026-11-17 00:23:53.121] --- Output end ---
+[TRACE] [2026-11-17 00:23:53.122] Execute command: "C:\Program Files\Git\cmd\git.exe" ls-files -- "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\tmsbuild.yaml"
+[TRACE] [2026-11-17 00:23:53.122] Working directory: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src
+[TRACE] [2026-11-17 00:23:53.180] --- Output start ---
+[TRACE] [2026-11-17 00:23:53.180] tmsbuild.yaml
+
+[TRACE] [2026-11-17 00:23:53.180] --- Output end ---
+[TRACE] [2026-11-17 00:23:53.180] Kept existing tmsbuild.yaml in the repo
+[INFO ] [2026-11-17 00:23:53.180] Updated c4d.exceptions from GIT
+[INFO ] [2026-11-17 00:23:59.847] Building package C4DExceptions for "Delphi 12.win32intel" with Debug config.
+[TRACE] [2026-11-17 00:23:59.887] Execute command: C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Debug\C4DExceptions.dproj"  /target:Build /nologo /p:config=Debug /p:Platform="Win32" /p:ProductVersion="23.0" /p:UnitSearchPath="C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\debug;C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Debug;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Debug\23.0\Win32\Debug" /p:DelphiLibraryPath="C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\debug;C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Debug;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Debug\23.0\Win32\Debug"
+[TRACE] [2026-11-17 00:23:59.887] Working directory: 
+[TRACE] [2026-11-17 00:24:00.866] --- Output start ---
+[TRACE] [2026-11-17 00:24:00.866] Compilação de 17/11/2026 00:24:00 iniciada.
+Projeto "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Debug\C4DExceptions.dproj" no nó 1 (Build destino(s)).
+CreateProjectDirectories:
+  Criando o diretório ".\23.0\Win32\Debug\".
+BuildVersionResource:
+  C:\Program Files (x86)\Embarcadero\Studio\23.0\bin\cgrc.exe -c65001 .\23.0\Win32\Debug\C4DExceptions.vrc -fo.\23.0\Win32\Debug\C4DExceptions.res 
+  CodeGear Resource Compiler/Binder
+  Version 1.2.2 Copyright (c) 2008-2012 Embarcadero Technologies Inc.
+  
+  Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Deleting file ".\23.0\Win32\Debug\C4DExceptions.vrc".
+_PasCoreCompile:
+  C:\Program Files (x86)\Embarcadero\Studio\23.0\bin\dcc32.exe -$O- -$W+ -$R+ -$Q+ --no-config -B -Q -Z -TX.bpl -AGenerics.Collections=System.Generics.Collections;Generics.Defaults=System.Generics.Defaults;WinTypes=Winapi.Windows;WinProcs=Winapi.Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE -D;DEBUG;;FRAMEWORK_VCL -E.\23.0\Win32\Debug -I"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\debug";"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Debug;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Debug\23.0\Win32\Debug -LE.\23.0\Win32\Debug -LN.\23.0\Win32\Debug -NU.\23.0\Win32\Debug -NSWinapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell; -O"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\debug";"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Debug;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Debug\23.0\Win32\Debug -R"c:\program files (x86)\embarcadero\studio\23.0\lib\Win32\release\EN";.\23.0\Win32\Debug;"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\debug";"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Debug;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Debug\23.0\Win32\Debug -U"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\debug";"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Debug;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Debug\23.0\Win32\Debug -V -VN -NB.\23.0\Win32\Debug -NH.\23.0\Win32\Debug -NO.\23.0\Win32\Debug  C4DExceptions.dpk   
+  Embarcadero Delphi for Win32 compiler version 36.0
+  Copyright (c) 1983,2025 Embarcadero Technologies, Inc.
+  210 lines, 0.23 seconds, 10288 bytes code, 184 bytes data.
+Done Building Project "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Debug\C4DExceptions.dproj" (Build target(s)).
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:00.80
+
+[TRACE] [2026-11-17 00:24:00.866] --- Output end ---
+[TRACE] [2026-11-17 00:24:00.867] Package C4DExceptions built successfully.
+
+---- Thread 2
+
+[INFO ] [2026-11-17 00:23:53.217] Updating c4d.msg:* from GIT
+[TRACE] [2026-11-17 00:23:53.217] Execute command: "C:\Program Files\Git\cmd\git.exe" clone --recurse-submodules -- "https://github.com/Code4Delphi/C4D-Msg" "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\.repositories\c4d.msg"
+[TRACE] [2026-11-17 00:23:53.217] Working directory: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\.repositories\c4d.msg
+[TRACE] [2026-11-17 00:23:55.158] --- Output start ---
+[TRACE] [2026-11-17 00:23:55.158] Cloning into 'C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\.repositories\c4d.msg'...
+
+[TRACE] [2026-11-17 00:23:55.158] --- Output end ---
+[TRACE] [2026-11-17 00:23:55.158] Execute command: "C:\Program Files\Git\cmd\git.exe" branch --show-current
+[TRACE] [2026-11-17 00:23:55.158] Working directory: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\.repositories\c4d.msg
+[TRACE] [2026-11-17 00:23:55.204] --- Output start ---
+[TRACE] [2026-11-17 00:23:55.204] master
+
+[TRACE] [2026-11-17 00:23:55.204] --- Output end ---
+[TRACE] [2026-11-17 00:23:55.206] Execute command: "C:\Program Files\Git\cmd\git.exe" tag --points-at HEAD
+[TRACE] [2026-11-17 00:23:55.206] Working directory: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src
+[TRACE] [2026-11-17 00:23:55.246] --- Output start ---
+[TRACE] [2026-11-17 00:23:55.246] v1.7.0
+
+[TRACE] [2026-11-17 00:23:55.246] --- Output end ---
+[TRACE] [2026-11-17 00:23:55.246] Execute command: "C:\Program Files\Git\cmd\git.exe" ls-files -- "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\tmsbuild.yaml"
+[TRACE] [2026-11-17 00:23:55.246] Working directory: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src
+[TRACE] [2026-11-17 00:23:55.288] --- Output start ---
+[TRACE] [2026-11-17 00:23:55.288] tmsbuild.yaml
+
+[TRACE] [2026-11-17 00:23:55.288] --- Output end ---
+[TRACE] [2026-11-17 00:23:55.288] Kept existing tmsbuild.yaml in the repo
+[INFO ] [2026-11-17 00:23:55.288] Updated c4d.msg:* from GIT
+[INFO ] [2026-11-17 00:23:59.847] Building package C4DExceptions for "Delphi 12.win32intel" with Release config.
+[TRACE] [2026-11-17 00:23:59.868] Execute command: C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\C4DExceptions.dproj"  /target:Build /nologo /p:config=Release /p:Platform="Win32" /p:ProductVersion="23.0" /p:UnitSearchPath="C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release" /p:DelphiLibraryPath="C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release"
+[TRACE] [2026-11-17 00:23:59.868] Working directory: 
+[TRACE] [2026-11-17 00:24:00.754] --- Output start ---
+[TRACE] [2026-11-17 00:24:00.754] Compilação de 17/11/2026 00:24:00 iniciada.
+Projeto "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\C4DExceptions.dproj" no nó 1 (Build destino(s)).
+CreateProjectDirectories:
+  Criando o diretório ".\23.0\Win32\Release\".
+BuildVersionResource:
+  C:\Program Files (x86)\Embarcadero\Studio\23.0\bin\cgrc.exe -c65001 .\23.0\Win32\Release\C4DExceptions.vrc -fo.\23.0\Win32\Release\C4DExceptions.res 
+  CodeGear Resource Compiler/Binder
+  Version 1.2.2 Copyright (c) 2008-2012 Embarcadero Technologies Inc.
+  
+  Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Deleting file ".\23.0\Win32\Release\C4DExceptions.vrc".
+_PasCoreCompile:
+  C:\Program Files (x86)\Embarcadero\Studio\23.0\bin\dcc32.exe -$R+ -$Q+ -$D0 -$L- -$Y- --no-config -B -Q -Z -TX.bpl -AGenerics.Collections=System.Generics.Collections;Generics.Defaults=System.Generics.Defaults;WinTypes=Winapi.Windows;WinProcs=Winapi.Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE -D;RELEASE;;FRAMEWORK_VCL -E.\23.0\Win32\Release -I"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release -LE.\23.0\Win32\Release -LN.\23.0\Win32\Release -NU.\23.0\Win32\Release -NSWinapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell; -O"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release -R"c:\program files (x86)\embarcadero\studio\23.0\lib\Win32\release\EN";.\23.0\Win32\Release;"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release -U"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release -NB.\23.0\Win32\Release -NH.\23.0\Win32\Release -NO.\23.0\Win32\Release  C4DExceptions.dpk   
+  Embarcadero Delphi for Win32 compiler version 36.0
+  Copyright (c) 1983,2025 Embarcadero Technologies, Inc.
+  210 lines, 0.11 seconds, 10104 bytes code, 184 bytes data.
+Done Building Project "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\C4DExceptions.dproj" (Build target(s)).
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:00.69
+
+[TRACE] [2026-11-17 00:24:00.754] --- Output end ---
+[TRACE] [2026-11-17 00:24:00.755] Package C4DExceptions built successfully.
+[TRACE] [2026-11-17 00:24:00.867] Copying "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\Src\*.dfm" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release".
+[TRACE] [2026-11-17 00:24:00.867] Copying files "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\Src\*.dfm" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release"
+[TRACE] [2026-11-17 00:24:00.867] Copying "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\Src\*.fmx" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release".
+[TRACE] [2026-11-17 00:24:00.867] Copying files "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\Src\*.fmx" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release"
+[TRACE] [2026-11-17 00:24:00.867] Copying "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\Src\*.res" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release".
+[TRACE] [2026-11-17 00:24:00.867] Copying files "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\Src\*.res" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release"
+[TRACE] [2026-11-17 00:24:00.867] Copying "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\Src\*.dcr" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release".
+[TRACE] [2026-11-17 00:24:00.867] Copying files "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\Src\*.dcr" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release\23.0\Win32\Release"
+[TRACE] [2026-11-17 00:24:00.874] Temporary parallel directory deleted successfully: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Debug
+[TRACE] [2026-11-17 00:24:00.875] Temporary parallel directory deleted successfully: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.exceptions_d12_win32intel_Release
+[TRACE] [2026-11-17 00:24:00.875] BrowsingPath added to platform "Delphi 12.win32intel": C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\Src
+[TRACE] [2026-11-17 00:24:00.876] LibraryPath added to platform "Delphi 12.win32intel": C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\packages\d11+\23.0\Win32\Release
+[TRACE] [2026-11-17 00:24:00.876] DebugDCUPath added to platform "Delphi 12.win32intel": C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\packages\d11+\23.0\Win32\Debug
+[TRACE] [2026-11-17 00:24:00.877] Hard link created from "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\.tmssetup\build\bpl\Win32\C4DExceptions290.bpl" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\packages\d11+\23.0\Win32\Release\C4DExceptions290.bpl"
+[INFO ] [2026-11-17 00:24:00.877] C4D Exceptions registered successfully on platform "Delphi 12.win32intel".
+
+---- Thread 3
+
+[INFO ] [2026-11-17 00:23:55.619] Building package C4DMsg for "Delphi 12.win32intel" with Release config.
+[TRACE] [2026-11-17 00:23:55.641] Execute command: C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\C4DMsg.dproj"  /target:Build /nologo /p:config=Release /p:Platform="Win32" /p:ProductVersion="23.0" /p:UnitSearchPath="C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release" /p:DelphiLibraryPath="C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release"
+[TRACE] [2026-11-17 00:23:55.641] Working directory: 
+[TRACE] [2026-11-17 00:23:59.279] --- Output start ---
+[TRACE] [2026-11-17 00:23:59.279] Compilação de 17/11/2026 00:23:55 iniciada.
+Projeto "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\C4DMsg.dproj" no nó 1 (Build destino(s)).
+CreateProjectDirectories:
+  Criando o diretório ".\23.0\Win32\Release\".
+BuildVersionResource:
+  C:\Program Files (x86)\Embarcadero\Studio\23.0\bin\cgrc.exe -c65001 .\23.0\Win32\Release\C4DMsg.vrc -fo.\23.0\Win32\Release\C4DMsg.res 
+  CodeGear Resource Compiler/Binder
+  Version 1.2.2 Copyright (c) 2008-2012 Embarcadero Technologies Inc.
+  
+  Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Deleting file ".\23.0\Win32\Release\C4DMsg.vrc".
+_PasCoreCompile:
+  C:\Program Files (x86)\Embarcadero\Studio\23.0\bin\dcc32.exe -$R+ -$Q+ -$D0 -$L- -$Y- --no-config -B -Q -Z -TX.bpl -AGenerics.Collections=System.Generics.Collections;Generics.Defaults=System.Generics.Defaults;WinTypes=Winapi.Windows;WinProcs=Winapi.Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE -D;RELEASE;;FRAMEWORK_VCL -E.\23.0\Win32\Release -I"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release -LE.\23.0\Win32\Release -LN.\23.0\Win32\Release -NU.\23.0\Win32\Release -NSWinapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell; -O"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release -R"c:\program files (x86)\embarcadero\studio\23.0\lib\Win32\release\EN";.\23.0\Win32\Release;"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release -U"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release -NB.\23.0\Win32\Release -NH.\23.0\Win32\Release -NO.\23.0\Win32\Release  C4DMsg.dpk   
+  Embarcadero Delphi for Win32 compiler version 36.0
+  Copyright (c) 1983,2025 Embarcadero Technologies, Inc.
+  352 lines, 0.66 seconds, 12236 bytes code, 188 bytes data.
+Done Building Project "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\C4DMsg.dproj" (Build target(s)).
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:03.29
+
+[TRACE] [2026-11-17 00:23:59.279] --- Output end ---
+[TRACE] [2026-11-17 00:23:59.280] Package C4DMsg built successfully.
+[TRACE] [2026-11-17 00:23:59.392] Copying "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\Src\*.dfm" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release".
+[TRACE] [2026-11-17 00:23:59.392] Copying files "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\Src\*.dfm" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release"
+[TRACE] [2026-11-17 00:23:59.395] Copying "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\Src\*.fmx" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release".
+[TRACE] [2026-11-17 00:23:59.395] Copying files "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\Src\*.fmx" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release"
+[TRACE] [2026-11-17 00:23:59.395] Copying "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\Src\*.res" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release".
+[TRACE] [2026-11-17 00:23:59.395] Copying files "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\Src\*.res" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release"
+[TRACE] [2026-11-17 00:23:59.396] Copying "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\Src\*.dcr" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release".
+[TRACE] [2026-11-17 00:23:59.396] Copying files "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\Src\*.dcr" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release\23.0\Win32\Release"
+[TRACE] [2026-11-17 00:23:59.426] Temporary parallel directory deleted successfully: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Debug
+[TRACE] [2026-11-17 00:23:59.432] Temporary parallel directory deleted successfully: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Release
+[TRACE] [2026-11-17 00:23:59.436] BrowsingPath added to platform "Delphi 12.win32intel": C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\Src
+[TRACE] [2026-11-17 00:23:59.437] LibraryPath added to platform "Delphi 12.win32intel": C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release
+[TRACE] [2026-11-17 00:23:59.437] DebugDCUPath added to platform "Delphi 12.win32intel": C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Debug
+[TRACE] [2026-11-17 00:23:59.440] Hard link created from "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\.tmssetup\build\bpl\Win32\C4DMsg290.bpl" to "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release\C4DMsg290.bpl"
+[INFO ] [2026-11-17 00:23:59.817] Added "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\.tmssetup\build\bpl\Win32" to the Windows Path
+[INFO ] [2026-11-17 00:23:59.817] C4D Msg registered successfully on platform "Delphi 12.win32intel".
+[INFO ] [2026-11-17 00:24:00.908] Building package SBOMDelphi for "Delphi 12.win32intel" with Release config.
+[TRACE] [2026-11-17 00:24:00.926] Execute command: C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.sbom-delphi_d12_win32intel_Release\SBOMDelphi.dproj"  /target:Build /nologo /p:config=Release /p:Platform="Win32" /p:ProductVersion="23.0" /p:UnitSearchPath="C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.sbom-delphi_d12_win32intel_Release\Win32\Release" /p:DelphiLibraryPath="C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.sbom-delphi_d12_win32intel_Release\Win32\Release"
+[TRACE] [2026-11-17 00:24:00.926] Working directory: 
+[TRACE] [2026-11-17 00:24:03.012] --- Output start ---
+[TRACE] [2026-11-17 00:24:03.012] Compilação de 17/11/2026 00:24:01 iniciada.
+Projeto "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.sbom-delphi_d12_win32intel_Release\SBOMDelphi.dproj" no nó 1 (Build destino(s)).
+CreateProjectDirectories:
+  Criando o diretório ".\Win32\Release\".
+  Criando o diretório ".\bin\Win32\Release".
+BuildVersionResource:
+  C:\Program Files (x86)\Embarcadero\Studio\23.0\bin\cgrc.exe -c65001 .\Win32\Release\SBOMDelphi.vrc -fo.\Win32\Release\SBOMDelphi.res 
+  CodeGear Resource Compiler/Binder
+  Version 1.2.2 Copyright (c) 2008-2012 Embarcadero Technologies Inc.
+  
+  Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Deleting file ".\Win32\Release\SBOMDelphi.vrc".
+  Deleting file ".\Win32\Release\SBOMDelphi.$manifest".
+_PasCoreCompile:
+  C:\Program Files (x86)\Embarcadero\Studio\23.0\bin\dcc32.exe -$D0 -$L- -$Y- --no-config -B -Q -TX.exe -AGenerics.Collections=System.Generics.Collections;Generics.Defaults=System.Generics.Defaults;WinTypes=Winapi.Windows;WinProcs=Winapi.Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE -D;RELEASE;;FRAMEWORK_VCL -E.\bin\Win32\Release -I"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.sbom-delphi_d12_win32intel_Release\Win32\Release -LE.\Win32\Release -LN.\Win32\Release -NU.\Win32\Release -NSWinapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell; -O"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.sbom-delphi_d12_win32intel_Release\Win32\Release -R"c:\program files (x86)\embarcadero\studio\23.0\lib\Win32\release\EN";.\Win32\Release;"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.sbom-delphi_d12_win32intel_Release\Win32\Release -U"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\packages\d11+\23.0\Win32\Release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.sbom-delphi_d12_win32intel_Release\Win32\Release -NB.\Win32\Release -NH.\Win32\Release -NO.\Win32\Release  SBOMDelphi.dpr   
+  Embarcadero Delphi for Win32 compiler version 36.0
+  Copyright (c) 1983,2025 Embarcadero Technologies, Inc.
+  51 lines, 0.78 seconds, 2070320 bytes code, 51628 bytes data.
+Done Building Project "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.sbom-delphi_d12_win32intel_Release\SBOMDelphi.dproj" (Build target(s)).
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:01.90
+
+[TRACE] [2026-11-17 00:24:03.012] --- Output end ---
+[TRACE] [2026-11-17 00:24:03.013] Package SBOMDelphi built successfully.
+[TRACE] [2026-11-17 00:24:03.019] Temporary parallel directory deleted successfully: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.sbom-delphi_d12_win32intel_Release
+
+---- Thread 4
+
+[INFO ] [2026-11-17 00:23:55.619] Building package C4DMsg for "Delphi 12.win32intel" with Debug config.
+[TRACE] [2026-11-17 00:23:55.652] Execute command: C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Debug\C4DMsg.dproj"  /target:Build /nologo /p:config=Debug /p:Platform="Win32" /p:ProductVersion="23.0" /p:UnitSearchPath="C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\debug;C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Debug\23.0\Win32\Debug" /p:DelphiLibraryPath="C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\debug;C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Debug\23.0\Win32\Debug"
+[TRACE] [2026-11-17 00:23:55.652] Working directory: 
+[TRACE] [2026-11-17 00:23:59.389] --- Output start ---
+[TRACE] [2026-11-17 00:23:59.389] Compilação de 17/11/2026 00:23:55 iniciada.
+Projeto "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Debug\C4DMsg.dproj" no nó 1 (Build destino(s)).
+CreateProjectDirectories:
+  Criando o diretório ".\23.0\Win32\Debug\".
+BuildVersionResource:
+  C:\Program Files (x86)\Embarcadero\Studio\23.0\bin\cgrc.exe -c65001 .\23.0\Win32\Debug\C4DMsg.vrc -fo.\23.0\Win32\Debug\C4DMsg.res 
+  CodeGear Resource Compiler/Binder
+  Version 1.2.2 Copyright (c) 2008-2012 Embarcadero Technologies Inc.
+  
+  Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Deleting file ".\23.0\Win32\Debug\C4DMsg.vrc".
+_PasCoreCompile:
+  C:\Program Files (x86)\Embarcadero\Studio\23.0\bin\dcc32.exe -$O- -$W+ -$R+ -$Q+ --no-config -B -Q -Z -TX.bpl -AGenerics.Collections=System.Generics.Collections;Generics.Defaults=System.Generics.Defaults;WinTypes=Winapi.Windows;WinProcs=Winapi.Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE -D;DEBUG;;FRAMEWORK_VCL -E.\23.0\Win32\Debug -I"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\debug";"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Debug\23.0\Win32\Debug -LE.\23.0\Win32\Debug -LN.\23.0\Win32\Debug -NU.\23.0\Win32\Debug -NSWinapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell; -O"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\debug";"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Debug\23.0\Win32\Debug -R"c:\program files (x86)\embarcadero\studio\23.0\lib\Win32\release\EN";.\23.0\Win32\Debug;"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\debug";"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Debug\23.0\Win32\Debug -U"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\debug";"C:\Program Files (x86)\Embarcadero\Studio\23.0\lib\Win32\release";C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Debug\23.0\Win32\Debug -V -VN -NB.\23.0\Win32\Debug -NH.\23.0\Win32\Debug -NO.\23.0\Win32\Debug  C4DMsg.dpk   
+  Embarcadero Delphi for Win32 compiler version 36.0
+  Copyright (c) 1983,2025 Embarcadero Technologies, Inc.
+  352 lines, 0.78 seconds, 12724 bytes code, 188 bytes data.
+Done Building Project "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Temp\p\c4d.msg_d12_win32intel_Debug\C4DMsg.dproj" (Build target(s)).
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:03.40
+
+[TRACE] [2026-11-17 00:23:59.389] --- Output end ---
+[TRACE] [2026-11-17 00:23:59.390] Package C4DMsg built successfully.

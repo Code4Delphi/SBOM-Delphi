@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/tmssoftware/smartsetup/refs/heads/main/tms/example-config/tmsbuild.schema.json
+
+minimum required tmsbuild version: 3.5
+
+application:
+  id: c4d.sbom-delphi
+  name: SBOM Delphi
+  description: VCL demo application used to show SBOM generation with TMS Smart Setup
+  company name: Code4Delphi
+  copyright: Code4Delphi
+  license: MIT
+  license url: https://github.com/Code4Delphi/SBOM-Delphi/blob/master/LICENSE
+  url: https://github.com/Code4Delphi/SBOM-Delphi
+  vcs protocol: git
+  version file: version.txt
+
+supported frameworks:
+  vcl:
+    ide since: delphi12
+    platforms:
+      - win32intel
+
+packages:
+  - SBOMDelphi: [exe, vcl]
+
+exe options:
+  compile with: latest
+
+dependencies:
+  - c4d.exceptions: C4D Exceptions
+  - c4d.msg: C4D Msg

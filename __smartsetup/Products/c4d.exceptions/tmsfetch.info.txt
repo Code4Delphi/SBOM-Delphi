@@ -1,0 +1,5 @@
+product_id: c4d.exceptions
+version: v1.6.0
+version_type: freeform
+server: community
+pinned: 0

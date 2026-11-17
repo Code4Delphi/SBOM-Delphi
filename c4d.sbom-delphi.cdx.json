@@ -1,0 +1,61 @@
+﻿{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "serialNumber": "urn:uuid:79a34dbc-8610-4ee6-8acd-06c86121e802",
+  "metadata": {
+    "timestamp": "2026-11-17T03:42:49Z",
+    "tools": [
+      {
+        "vendor": "TMS Software",
+        "name": "TMS Smart Setup"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "name": "c4d.sbom-delphi",
+      "version": "1.0.0",
+      "description": "VCL demo application used to show SBOM generation with TMS Smart Setup",
+      "copyright": "Code4Delphi",
+      "publisher": "Code4Delphi",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT",
+            "url": "https://github.com/Code4Delphi/SBOM-Delphi/blob/master/LICENSE"
+          }
+        }
+      ],
+      "purl": "pkg:smartsetup/c4d.sbom-delphi@1.0.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/Code4Delphi/SBOM-Delphi"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "c4d.exceptions",
+      "purl": "pkg:smartsetup/c4d.exceptions",
+      "description": "C4D Exceptions"
+    },
+    {
+      "type": "library",
+      "name": "c4d.msg",
+      "purl": "pkg:smartsetup/c4d.msg",
+      "description": "C4D Msg"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:smartsetup/c4d.sbom-delphi@1.0.0",
+      "dependsOn": [
+        "pkg:smartsetup/c4d.exceptions",
+        "pkg:smartsetup/c4d.msg"
+      ]
+    }
+  ]
+}

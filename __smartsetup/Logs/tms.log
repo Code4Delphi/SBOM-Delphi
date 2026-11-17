@@ -1,0 +1,47 @@
+﻿[TRACE] [2026-11-17 00:42:49.762] C:\Users\Cesar\AppData\Local\TMS Setup\tms.exe sbom-generate *
+[TRACE] [2026-11-17 00:42:49.762] tms version 3.5
+[TRACE] [2026-11-17 00:42:49.762] Windows 11 (Version 25H2, OS Build 26200.9974, 64-bit Edition)
+[TRACE] [2026-11-17 00:42:49.762] File system: NTFS
+[TRACE] [2026-11-17 00:42:49.762] Current dir: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi
+[TRACE] [2026-11-17 00:42:49.762] Working dir: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup
+[TRACE] [2026-11-17 00:42:49.762] Build cores: 32
+[TRACE] [2026-11-17 00:42:49.762] 
+[TRACE] [2026-11-17 00:42:49.764] tms smart setup options:
+  build cores: 0
+  working folder: __smartsetup
+  prevent sleep: true
+  versions to keep: -1
+  error if skipped: false
+  servers:
+    tms:
+      enabled: false
+    community:
+      enabled: true
+configuration for all products:
+  options:
+    verbosity: info
+    skip register: false
+    dry run: false
+  delphi versions: [delphi12]
+  platforms: [win32intel]
+  compilation options:
+    debug dcus: true
+    run build events: false
+  advanced options:
+    use symlinks: false
+    keep parallel folders: false
+    modify sources: false
+    partial builds: false
+    add source code to library path: false
+[TRACE] [2026-11-17 00:42:49.765] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\tmsbuild.yaml
+[TRACE] [2026-11-17 00:42:49.765] Loaded project c4d.exceptions
+[TRACE] [2026-11-17 00:42:49.765] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\tmsbuild.yaml
+[TRACE] [2026-11-17 00:42:49.766] Loaded project c4d.msg
+[TRACE] [2026-11-17 00:42:49.766] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tmsbuild.yaml
+[TRACE] [2026-11-17 00:42:49.766] Loaded project c4d.sbom-delphi
+[INFO ] [2026-11-17 00:42:49.766] Generating SBOM for "c4d.exceptions"...
+[INFO ] [2026-11-17 00:42:49.768] SBOM created: "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\c4d.exceptions.cdx.json"
+[INFO ] [2026-11-17 00:42:49.768] Generating SBOM for "c4d.msg"...
+[INFO ] [2026-11-17 00:42:49.770] SBOM created: "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\c4d.msg.cdx.json"
+[INFO ] [2026-11-17 00:42:49.770] Generating SBOM for "c4d.sbom-delphi"...
+[INFO ] [2026-11-17 00:42:49.772] SBOM created: "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\c4d.sbom-delphi.cdx.json"
