@@ -11,4 +11,22 @@ object MainView: TMainView
   Font.Name = 'Segoe UI'
   Font.Style = []
   TextHeight = 15
+  object Button1: TButton
+    Left = 168
+    Top = 168
+    Width = 75
+    Height = 25
+    Caption = 'Msg'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 168
+    Top = 208
+    Width = 75
+    Height = 25
+    Caption = 'Exceptions'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
 end
