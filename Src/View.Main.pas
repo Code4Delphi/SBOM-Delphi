@@ -12,8 +12,9 @@ uses
   Vcl.Controls,
   Vcl.Forms,
   Vcl.Dialogs,
+  Vcl.StdCtrls,
   C4D.Msg,
-  C4D.Exceptions, Vcl.StdCtrls;
+  C4D.Exceptions;
 
 type
   TMainView = class(TForm)
