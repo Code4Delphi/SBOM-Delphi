@@ -154,7 +154,7 @@ function wrapText() {
 </head>
 <body>
 <div class="topbar">
-TMS Smart Setup Log. November 17, 2026  0:42:49
+TMS Smart Setup Log. November 17, 2026  21:44:36
 <button class="action-button" onclick="wrapText(false)">Wrap</button>
 <button class="action-button" onclick="expandAll(false)">Collapse</button>
 <button class="action-button" onclick="expandAll(true)">Expand</button>
@@ -167,7 +167,7 @@ TMS Smart Setup Log. November 17, 2026  0:42:49
 <label for="Section1" class="lbl-toggle">Information</label>
 <div class = "collapsible-content">
 <div class="preformatted">
-C:\Users\Cesar\AppData\Local\TMS Setup\tms.exe sbom-generate *
+C:\Users\Cesar\AppData\Local\TMS Setup\tms.exe uninstall c4d.msg
 tms version 3.5
 Windows 11 (Version 25H2, OS Build 26200.9974, 64-bit Edition)
 File system: NTFS
@@ -219,25 +219,101 @@ configuration for all products:
 </div>
 <div class="wrap-collapsible">
 <input id="Section3" class="toggle" type="checkbox">
-<label for="Section3" class="lbl-toggle">Project loading</label>
+<label for="Section3" class="lbl-toggle">Skipped</label>
 <div class = "collapsible-content">
 <div class="preformatted">
-Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\tmsbuild.yaml
-Loaded project c4d.exceptions
-Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\tmsbuild.yaml
-Loaded project c4d.msg
+</div>
+</div>
+</div>
+<div class="preformatted">
+</div>
+<div class="wrap-collapsible">
+<input id="Section4" class="toggle" type="checkbox"checked>
+<label for="Section4" class="lbl-toggle">Build Summary</label>
+<div class = "collapsible-content">
+<div class="preformatted">
+<span class="info-text"></span>
+<span class="info-text">=== Build Summary ===</span>
+<span class="info-text">  - SBOM Delphi 1.0.0 -&gt; IGNORED.</span>
+</div>
+</div>
+</div>
+<div class="preformatted">
+Looking up products matching c4d.msg
+Product c4d.msg:v1.7.0 flagged for removal
+<span class="info-text">Gathering files to be removed...</span>
+<span class="info-text">Starting removal</span>
+<span class="info-text">Removing C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg</span>
+<span class="info-text">Directory removed: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg</span>
+<span class="info-text">c4d.msg -&gt; REMOVED</span>
+<span class="info-text">Starting build...</span>
+<span class="info-text">Configuration file: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tms.config.yaml</span>
+<span class="info-text"></span>
+</div>
+<div class="wrap-collapsible">
+<input id="Section5" class="toggle" type="checkbox">
+<label for="Section5" class="lbl-toggle">Project loading</label>
+<div class = "collapsible-content">
+<div class="preformatted">
 Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tmsbuild.yaml
 Loaded project c4d.sbom-delphi
 </div>
 </div>
 </div>
 <div class="preformatted">
-<span class="info-text">Generating SBOM for &quot;c4d.exceptions&quot;...</span>
-<span class="info-text">SBOM created: &quot;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\c4d.exceptions.cdx.json&quot;</span>
-<span class="info-text">Generating SBOM for &quot;c4d.msg&quot;...</span>
-<span class="info-text">SBOM created: &quot;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\c4d.msg.cdx.json&quot;</span>
-<span class="info-text">Generating SBOM for &quot;c4d.sbom-delphi&quot;...</span>
-<span class="info-text">SBOM created: &quot;C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\c4d.sbom-delphi.cdx.json&quot;</span>
+</div>
+<div class="wrap-collapsible">
+<input id="Section6" class="toggle" type="checkbox">
+<label for="Section6" class="lbl-toggle">Analyzing</label>
+<div class = "collapsible-content">
+<div class="preformatted">
+<span class="info-text">Analyzing products...</span>
+<span class="info-text">WARNING: The project &quot;c4d.msg&quot; in the section &quot;included products&quot; was not found. Verify there are no typos. </span>
+<span class="info-text">Ok</span>
+</div>
+</div>
+</div>
+<div class="preformatted">
+<span class="info-text">Skipping SBOM Delphi 1.0.0. Ignored in command line or the config file</span>
+</div>
+<div class="wrap-collapsible">
+<input id="Section7" class="toggle" type="checkbox">
+<label for="Section7" class="lbl-toggle">Setting up IDEs</label>
+<div class = "collapsible-content">
+<div class="preformatted">
+</div>
+</div>
+</div>
+<div class="preformatted">
+<span class="info-text">All projects built.</span>
+</div>
+<div class="wrap-collapsible">
+<input id="Section8" class="toggle" type="checkbox">
+<label for="Section8" class="lbl-toggle">Project loading</label>
+<div class = "collapsible-content">
+<div class="preformatted">
+Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tmsbuild.yaml
+Loaded project c4d.sbom-delphi
+</div>
+</div>
+</div>
+<div class="preformatted">
+<span class="info-text"></span>
+<span class="info-text">Build finished. Elapsed time: 00:00:00.0089565</span>
+</div>
+<div class="wrap-collapsible">
+<input id="Section9" class="toggle" type="checkbox">
+<label for="Section9" class="lbl-toggle">Project loading</label>
+<div class = "collapsible-content">
+<div class="preformatted">
+Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tmsbuild.yaml
+Loaded project c4d.sbom-delphi
+</div>
+</div>
+</div>
+<div class="preformatted">
+<span class="info-text"></span>
+<span class="info-text">Uninstall finished. Elapsed time: 00:00:00.0162830</span>
 </div>
 </div>
 </body>

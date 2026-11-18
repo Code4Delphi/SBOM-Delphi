@@ -1,5 +1,0 @@
-product_id: c4d.msg
-version: v1.7.0
-version_type: freeform
-server: community
-pinned: 0

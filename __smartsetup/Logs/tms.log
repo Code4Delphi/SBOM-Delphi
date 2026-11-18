@@ -1,12 +1,12 @@
-﻿[TRACE] [2026-11-17 00:42:49.762] C:\Users\Cesar\AppData\Local\TMS Setup\tms.exe sbom-generate *
-[TRACE] [2026-11-17 00:42:49.762] tms version 3.5
-[TRACE] [2026-11-17 00:42:49.762] Windows 11 (Version 25H2, OS Build 26200.9974, 64-bit Edition)
-[TRACE] [2026-11-17 00:42:49.762] File system: NTFS
-[TRACE] [2026-11-17 00:42:49.762] Current dir: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi
-[TRACE] [2026-11-17 00:42:49.762] Working dir: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup
-[TRACE] [2026-11-17 00:42:49.762] Build cores: 32
-[TRACE] [2026-11-17 00:42:49.762] 
-[TRACE] [2026-11-17 00:42:49.764] tms smart setup options:
+﻿[TRACE] [2026-11-17 21:44:36.053] C:\Users\Cesar\AppData\Local\TMS Setup\tms.exe uninstall c4d.msg
+[TRACE] [2026-11-17 21:44:36.053] tms version 3.5
+[TRACE] [2026-11-17 21:44:36.053] Windows 11 (Version 25H2, OS Build 26200.9974, 64-bit Edition)
+[TRACE] [2026-11-17 21:44:36.053] File system: NTFS
+[TRACE] [2026-11-17 21:44:36.053] Current dir: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi
+[TRACE] [2026-11-17 21:44:36.053] Working dir: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup
+[TRACE] [2026-11-17 21:44:36.053] Build cores: 32
+[TRACE] [2026-11-17 21:44:36.053] 
+[TRACE] [2026-11-17 21:44:36.054] tms smart setup options:
   build cores: 0
   working folder: __smartsetup
   prevent sleep: true
@@ -33,15 +33,34 @@ configuration for all products:
     modify sources: false
     partial builds: false
     add source code to library path: false
-[TRACE] [2026-11-17 00:42:49.765] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\tmsbuild.yaml
-[TRACE] [2026-11-17 00:42:49.765] Loaded project c4d.exceptions
-[TRACE] [2026-11-17 00:42:49.765] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\tmsbuild.yaml
-[TRACE] [2026-11-17 00:42:49.766] Loaded project c4d.msg
-[TRACE] [2026-11-17 00:42:49.766] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tmsbuild.yaml
-[TRACE] [2026-11-17 00:42:49.766] Loaded project c4d.sbom-delphi
-[INFO ] [2026-11-17 00:42:49.766] Generating SBOM for "c4d.exceptions"...
-[INFO ] [2026-11-17 00:42:49.768] SBOM created: "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.exceptions\src\c4d.exceptions.cdx.json"
-[INFO ] [2026-11-17 00:42:49.768] Generating SBOM for "c4d.msg"...
-[INFO ] [2026-11-17 00:42:49.770] SBOM created: "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg\src\c4d.msg.cdx.json"
-[INFO ] [2026-11-17 00:42:49.770] Generating SBOM for "c4d.sbom-delphi"...
-[INFO ] [2026-11-17 00:42:49.772] SBOM created: "C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\c4d.sbom-delphi.cdx.json"
+[TRACE] [2026-11-17 21:44:36.054] Looking up products matching c4d.msg
+[TRACE] [2026-11-17 21:44:36.054] Product c4d.msg:v1.7.0 flagged for removal
+[INFO ] [2026-11-17 21:44:36.054] Gathering files to be removed...
+[INFO ] [2026-11-17 21:44:36.055] Starting removal
+[INFO ] [2026-11-17 21:44:36.056] c4d.msg -> REMOVED
+[INFO ] [2026-11-17 21:44:36.056] Starting build...
+[INFO ] [2026-11-17 21:44:36.056] Configuration file: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tms.config.yaml
+[INFO ] [2026-11-17 21:44:36.056] 
+[TRACE] [2026-11-17 21:44:36.057] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tmsbuild.yaml
+[TRACE] [2026-11-17 21:44:36.057] Loaded project c4d.sbom-delphi
+[INFO ] [2026-11-17 21:44:36.058] Analyzing products...
+[INFO ] [2026-11-17 21:44:36.058] WARNING: The project "c4d.msg" in the section "included products" was not found. Verify there are no typos. 
+[INFO ] [2026-11-17 21:44:36.058] Ok
+[INFO ] [2026-11-17 21:44:36.059] Skipping SBOM Delphi 1.0.0. Ignored in command line or the config file
+[INFO ] [2026-11-17 21:44:36.059] All projects built.
+[INFO ] [2026-11-17 21:44:36.059] 
+[INFO ] [2026-11-17 21:44:36.059] === Build Summary ===
+[INFO ] [2026-11-17 21:44:36.059]   - SBOM Delphi 1.0.0 -> IGNORED.
+[TRACE] [2026-11-17 21:44:36.060] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tmsbuild.yaml
+[TRACE] [2026-11-17 21:44:36.060] Loaded project c4d.sbom-delphi
+[INFO ] [2026-11-17 21:44:36.065] 
+[INFO ] [2026-11-17 21:44:36.065] Build finished. Elapsed time: 00:00:00.0089565
+[TRACE] [2026-11-17 21:44:36.066] Loading project C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\tmsbuild.yaml
+[TRACE] [2026-11-17 21:44:36.066] Loaded project c4d.sbom-delphi
+[INFO ] [2026-11-17 21:44:36.070] 
+[INFO ] [2026-11-17 21:44:36.070] Uninstall finished. Elapsed time: 00:00:00.0162830
+
+---- Thread 1
+
+[INFO ] [2026-11-17 21:44:36.055] Removing C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg
+[INFO ] [2026-11-17 21:44:36.056] Directory removed: C:\Code4D\Cursos\TMS\TMS-Smart-Setup\SBOM-Delphi\__smartsetup\Products\c4d.msg
